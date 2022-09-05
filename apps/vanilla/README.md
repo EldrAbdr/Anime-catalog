@@ -1,1 +1,0 @@
-# Vanilla TS Anime catalog
