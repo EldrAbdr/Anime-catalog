@@ -29,7 +29,7 @@ export class AuthorizationGuard implements CanActivate {
   ): Observable<boolean> | boolean {
     return this.userService.isLoggedIn$.pipe(map(isLoggedIn => {
       if (!isLoggedIn) {
-        this.router.navigate(['auth/']);
+        this.router.navigate(['login/']);
       }
       return isLoggedIn;
     }));
