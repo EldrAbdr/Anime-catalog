@@ -1,6 +1,17 @@
 # Anime catalog
 
-Monorepo with Angular, React, Vanilla TS. 
+Monorepo with Angular, React, Vanilla TS.
+
+## Intro
+Catalog of anime films designed in the form of a table with pagination. Anime can be sorted and filtered. Search by name is available. Implemented authentication with live form validation.
+The catalog is made in three versions - on "vanilla" Typescript, Angular and React.
+
+## Technologies used in the project
+Typescript, React, Angular, Redux, HTML 5, CSS 3, Material UI
+
+## Link to GitHub pages
+https://EldrAbdr.github.io/Anime-catalog/
+
 ## Installation
 
 `npm install` to install all required dependencies.
